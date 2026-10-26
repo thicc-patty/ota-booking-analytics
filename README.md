@@ -1,4 +1,4 @@
-# Travel booking analytics: SQL and Power BI on synthetic data
+# Travel booking analytics: PostgreSQL and a Power BI dashboard spec, on synthetic data
 
 ![PostgreSQL 16](https://img.shields.io/badge/PostgreSQL-16-336791?logo=postgresql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-CTEs%20%7C%20window%20functions-2a78d6)
