@@ -1,0 +1,21 @@
+product_id,product_type,origin,destination
+1,domestic_flight,DAC,CXB
+2,domestic_flight,DAC,CGP
+3,domestic_flight,DAC,ZYL
+4,domestic_flight,DAC,JSR
+5,domestic_flight,DAC,RJH
+6,domestic_flight,CGP,DAC
+7,international_flight,DAC,DXB
+8,international_flight,DAC,KUL
+9,international_flight,DAC,BKK
+10,international_flight,DAC,DEL
+11,international_flight,DAC,SIN
+12,international_flight,DAC,JED
+13,hotel,,Cox's Bazar
+14,hotel,,Sylhet
+15,hotel,,Dhaka
+16,hotel,,Bandarban
+17,hotel,,Chattogram
+18,bus,Dhaka,Chattogram
+19,bus,Dhaka,Sylhet
+20,bus,Dhaka,Cox's Bazar

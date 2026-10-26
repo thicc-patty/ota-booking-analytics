@@ -1,0 +1,5 @@
+promo_id,promo_code,discount_type,discount_value,max_discount,start_date,end_date
+1,WELCOME10,percent,10,500,2026-01-01,2026-09-30
+2,EID15,percent,15,1500,2026-03-10,2026-03-31
+3,SUMMER500,flat,500,500,2026-06-01,2026-07-31
+4,BKASH5,percent,5,300,2026-01-01,2026-09-30

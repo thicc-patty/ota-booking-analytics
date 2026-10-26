@@ -1,0 +1,6 @@
+payment_method_id,method_name,method_type
+1,bKash,mobile wallet
+2,Nagad,mobile wallet
+3,Visa card,card
+4,Mastercard,card
+5,Internet banking,bank

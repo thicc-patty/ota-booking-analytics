@@ -1,0 +1,7 @@
+channel_id,channel_name,channel_type
+1,Mobile app,owned
+2,Website,owned
+3,Call center,assisted
+4,Agent partner,partner
+5,Facebook ads,paid
+6,Google ads,paid

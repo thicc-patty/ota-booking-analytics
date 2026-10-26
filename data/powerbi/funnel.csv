@@ -1,0 +1,271 @@
+month_start,channel_name,stage,stage_order,sessions_reaching_stage
+2026-01-01,Agent partner,search,1,992
+2026-01-01,Agent partner,select,2,410
+2026-01-01,Agent partner,checkout,3,181
+2026-01-01,Agent partner,payment,4,103
+2026-01-01,Agent partner,booked,5,78
+2026-01-01,Call center,search,1,171
+2026-01-01,Call center,select,2,74
+2026-01-01,Call center,checkout,3,40
+2026-01-01,Call center,payment,4,25
+2026-01-01,Call center,booked,5,20
+2026-01-01,Facebook ads,search,1,10316
+2026-01-01,Facebook ads,select,2,3776
+2026-01-01,Facebook ads,checkout,3,1253
+2026-01-01,Facebook ads,payment,4,439
+2026-01-01,Facebook ads,booked,5,135
+2026-01-01,Google ads,search,1,8112
+2026-01-01,Google ads,select,2,3017
+2026-01-01,Google ads,checkout,3,1045
+2026-01-01,Google ads,payment,4,377
+2026-01-01,Google ads,booked,5,146
+2026-01-01,Mobile app,search,1,5978
+2026-01-01,Mobile app,select,2,2215
+2026-01-01,Mobile app,checkout,3,791
+2026-01-01,Mobile app,payment,4,373
+2026-01-01,Mobile app,booked,5,193
+2026-01-01,Website,search,1,8083
+2026-01-01,Website,select,2,3026
+2026-01-01,Website,checkout,3,1057
+2026-01-01,Website,payment,4,435
+2026-01-01,Website,booked,5,195
+2026-02-01,Agent partner,search,1,978
+2026-02-01,Agent partner,select,2,387
+2026-02-01,Agent partner,checkout,3,184
+2026-02-01,Agent partner,payment,4,108
+2026-02-01,Agent partner,booked,5,77
+2026-02-01,Call center,search,1,275
+2026-02-01,Call center,select,2,145
+2026-02-01,Call center,checkout,3,69
+2026-02-01,Call center,payment,4,47
+2026-02-01,Call center,booked,5,35
+2026-02-01,Facebook ads,search,1,10278
+2026-02-01,Facebook ads,select,2,3720
+2026-02-01,Facebook ads,checkout,3,1216
+2026-02-01,Facebook ads,payment,4,438
+2026-02-01,Facebook ads,booked,5,135
+2026-02-01,Google ads,search,1,7705
+2026-02-01,Google ads,select,2,2910
+2026-02-01,Google ads,checkout,3,931
+2026-02-01,Google ads,payment,4,361
+2026-02-01,Google ads,booked,5,136
+2026-02-01,Mobile app,search,1,6927
+2026-02-01,Mobile app,select,2,2639
+2026-02-01,Mobile app,checkout,3,987
+2026-02-01,Mobile app,payment,4,455
+2026-02-01,Mobile app,booked,5,224
+2026-02-01,Website,search,1,9829
+2026-02-01,Website,select,2,3699
+2026-02-01,Website,checkout,3,1267
+2026-02-01,Website,payment,4,537
+2026-02-01,Website,booked,5,235
+2026-03-01,Agent partner,search,1,1661
+2026-03-01,Agent partner,select,2,703
+2026-03-01,Agent partner,checkout,3,305
+2026-03-01,Agent partner,payment,4,175
+2026-03-01,Agent partner,booked,5,130
+2026-03-01,Call center,search,1,335
+2026-03-01,Call center,select,2,137
+2026-03-01,Call center,checkout,3,67
+2026-03-01,Call center,payment,4,48
+2026-03-01,Call center,booked,5,44
+2026-03-01,Facebook ads,search,1,19208
+2026-03-01,Facebook ads,select,2,6984
+2026-03-01,Facebook ads,checkout,3,2301
+2026-03-01,Facebook ads,payment,4,789
+2026-03-01,Facebook ads,booked,5,251
+2026-03-01,Google ads,search,1,15413
+2026-03-01,Google ads,select,2,5695
+2026-03-01,Google ads,checkout,3,1948
+2026-03-01,Google ads,payment,4,746
+2026-03-01,Google ads,booked,5,277
+2026-03-01,Mobile app,search,1,11095
+2026-03-01,Mobile app,select,2,4149
+2026-03-01,Mobile app,checkout,3,1512
+2026-03-01,Mobile app,payment,4,672
+2026-03-01,Mobile app,booked,5,355
+2026-03-01,Website,search,1,17131
+2026-03-01,Website,select,2,6445
+2026-03-01,Website,checkout,3,2277
+2026-03-01,Website,payment,4,907
+2026-03-01,Website,booked,5,413
+2026-04-01,Agent partner,search,1,959
+2026-04-01,Agent partner,select,2,396
+2026-04-01,Agent partner,checkout,3,174
+2026-04-01,Agent partner,payment,4,105
+2026-04-01,Agent partner,booked,5,73
+2026-04-01,Call center,search,1,266
+2026-04-01,Call center,select,2,127
+2026-04-01,Call center,checkout,3,58
+2026-04-01,Call center,payment,4,35
+2026-04-01,Call center,booked,5,32
+2026-04-01,Facebook ads,search,1,10008
+2026-04-01,Facebook ads,select,2,3652
+2026-04-01,Facebook ads,checkout,3,1181
+2026-04-01,Facebook ads,payment,4,444
+2026-04-01,Facebook ads,booked,5,129
+2026-04-01,Google ads,search,1,7669
+2026-04-01,Google ads,select,2,2875
+2026-04-01,Google ads,checkout,3,951
+2026-04-01,Google ads,payment,4,349
+2026-04-01,Google ads,booked,5,139
+2026-04-01,Mobile app,search,1,6952
+2026-04-01,Mobile app,select,2,2665
+2026-04-01,Mobile app,checkout,3,991
+2026-04-01,Mobile app,payment,4,444
+2026-04-01,Mobile app,booked,5,222
+2026-04-01,Website,search,1,9711
+2026-04-01,Website,select,2,3672
+2026-04-01,Website,checkout,3,1275
+2026-04-01,Website,payment,4,528
+2026-04-01,Website,booked,5,236
+2026-05-01,Agent partner,search,1,1011
+2026-05-01,Agent partner,select,2,419
+2026-05-01,Agent partner,checkout,3,180
+2026-05-01,Agent partner,payment,4,113
+2026-05-01,Agent partner,booked,5,86
+2026-05-01,Call center,search,1,262
+2026-05-01,Call center,select,2,116
+2026-05-01,Call center,checkout,3,61
+2026-05-01,Call center,payment,4,42
+2026-05-01,Call center,booked,5,34
+2026-05-01,Facebook ads,search,1,9426
+2026-05-01,Facebook ads,select,2,3555
+2026-05-01,Facebook ads,checkout,3,1160
+2026-05-01,Facebook ads,payment,4,423
+2026-05-01,Facebook ads,booked,5,122
+2026-05-01,Google ads,search,1,8177
+2026-05-01,Google ads,select,2,2989
+2026-05-01,Google ads,checkout,3,1006
+2026-05-01,Google ads,payment,4,368
+2026-05-01,Google ads,booked,5,147
+2026-05-01,Mobile app,search,1,7434
+2026-05-01,Mobile app,select,2,2858
+2026-05-01,Mobile app,checkout,3,1043
+2026-05-01,Mobile app,payment,4,455
+2026-05-01,Mobile app,booked,5,240
+2026-05-01,Website,search,1,11757
+2026-05-01,Website,select,2,4438
+2026-05-01,Website,checkout,3,1506
+2026-05-01,Website,payment,4,604
+2026-05-01,Website,booked,5,279
+2026-06-01,Agent partner,search,1,1474
+2026-06-01,Agent partner,select,2,594
+2026-06-01,Agent partner,checkout,3,257
+2026-06-01,Agent partner,payment,4,152
+2026-06-01,Agent partner,booked,5,118
+2026-06-01,Call center,search,1,284
+2026-06-01,Call center,select,2,109
+2026-06-01,Call center,checkout,3,49
+2026-06-01,Call center,payment,4,34
+2026-06-01,Call center,booked,5,30
+2026-06-01,Facebook ads,search,1,13075
+2026-06-01,Facebook ads,select,2,4881
+2026-06-01,Facebook ads,checkout,3,1655
+2026-06-01,Facebook ads,payment,4,581
+2026-06-01,Facebook ads,booked,5,170
+2026-06-01,Google ads,search,1,9022
+2026-06-01,Google ads,select,2,3333
+2026-06-01,Google ads,checkout,3,1121
+2026-06-01,Google ads,payment,4,410
+2026-06-01,Google ads,booked,5,165
+2026-06-01,Mobile app,search,1,11024
+2026-06-01,Mobile app,select,2,4221
+2026-06-01,Mobile app,checkout,3,1535
+2026-06-01,Mobile app,payment,4,678
+2026-06-01,Mobile app,booked,5,346
+2026-06-01,Website,search,1,16083
+2026-06-01,Website,select,2,6008
+2026-06-01,Website,checkout,3,2097
+2026-06-01,Website,payment,4,851
+2026-06-01,Website,booked,5,383
+2026-07-01,Agent partner,search,1,1548
+2026-07-01,Agent partner,select,2,626
+2026-07-01,Agent partner,checkout,3,266
+2026-07-01,Agent partner,payment,4,160
+2026-07-01,Agent partner,booked,5,124
+2026-07-01,Call center,search,1,359
+2026-07-01,Call center,select,2,150
+2026-07-01,Call center,checkout,3,75
+2026-07-01,Call center,payment,4,52
+2026-07-01,Call center,booked,5,45
+2026-07-01,Facebook ads,search,1,12152
+2026-07-01,Facebook ads,select,2,4435
+2026-07-01,Facebook ads,checkout,3,1428
+2026-07-01,Facebook ads,payment,4,496
+2026-07-01,Facebook ads,booked,5,158
+2026-07-01,Google ads,search,1,9871
+2026-07-01,Google ads,select,2,3628
+2026-07-01,Google ads,checkout,3,1243
+2026-07-01,Google ads,payment,4,460
+2026-07-01,Google ads,booked,5,175
+2026-07-01,Mobile app,search,1,11274
+2026-07-01,Mobile app,select,2,4236
+2026-07-01,Mobile app,checkout,3,1539
+2026-07-01,Mobile app,payment,4,685
+2026-07-01,Mobile app,booked,5,359
+2026-07-01,Website,search,1,14749
+2026-07-01,Website,select,2,5447
+2026-07-01,Website,checkout,3,1915
+2026-07-01,Website,payment,4,797
+2026-07-01,Website,booked,5,353
+2026-08-01,Agent partner,search,1,1057
+2026-08-01,Agent partner,select,2,431
+2026-08-01,Agent partner,checkout,3,190
+2026-08-01,Agent partner,payment,4,112
+2026-08-01,Agent partner,booked,5,85
+2026-08-01,Call center,search,1,237
+2026-08-01,Call center,select,2,100
+2026-08-01,Call center,checkout,3,52
+2026-08-01,Call center,payment,4,34
+2026-08-01,Call center,booked,5,25
+2026-08-01,Facebook ads,search,1,11386
+2026-08-01,Facebook ads,select,2,4188
+2026-08-01,Facebook ads,checkout,3,1389
+2026-08-01,Facebook ads,payment,4,482
+2026-08-01,Facebook ads,booked,5,148
+2026-08-01,Google ads,search,1,7161
+2026-08-01,Google ads,select,2,2609
+2026-08-01,Google ads,checkout,3,875
+2026-08-01,Google ads,payment,4,335
+2026-08-01,Google ads,booked,5,129
+2026-08-01,Mobile app,search,1,8212
+2026-08-01,Mobile app,select,2,3091
+2026-08-01,Mobile app,checkout,3,1095
+2026-08-01,Mobile app,payment,4,482
+2026-08-01,Mobile app,booked,5,268
+2026-08-01,Website,search,1,10996
+2026-08-01,Website,select,2,4092
+2026-08-01,Website,checkout,3,1437
+2026-08-01,Website,payment,4,578
+2026-08-01,Website,booked,5,267
+2026-09-01,Agent partner,search,1,808
+2026-09-01,Agent partner,select,2,336
+2026-09-01,Agent partner,checkout,3,165
+2026-09-01,Agent partner,payment,4,95
+2026-09-01,Agent partner,booked,5,68
+2026-09-01,Call center,search,1,361
+2026-09-01,Call center,select,2,157
+2026-09-01,Call center,checkout,3,78
+2026-09-01,Call center,payment,4,49
+2026-09-01,Call center,booked,5,41
+2026-09-01,Facebook ads,search,1,10536
+2026-09-01,Facebook ads,select,2,3871
+2026-09-01,Facebook ads,checkout,3,1309
+2026-09-01,Facebook ads,payment,4,484
+2026-09-01,Facebook ads,booked,5,135
+2026-09-01,Google ads,search,1,5203
+2026-09-01,Google ads,select,2,1966
+2026-09-01,Google ads,checkout,3,649
+2026-09-01,Google ads,payment,4,257
+2026-09-01,Google ads,booked,5,96
+2026-09-01,Mobile app,search,1,8104
+2026-09-01,Mobile app,select,2,3072
+2026-09-01,Mobile app,checkout,3,1159
+2026-09-01,Mobile app,payment,4,524
+2026-09-01,Mobile app,booked,5,257
+2026-09-01,Website,search,1,9911
+2026-09-01,Website,select,2,3688
+2026-09-01,Website,checkout,3,1324
+2026-09-01,Website,payment,4,530
+2026-09-01,Website,booked,5,237
