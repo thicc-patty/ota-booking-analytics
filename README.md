@@ -5,7 +5,7 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-dashboard%20spec-F2C811?logo=powerbi&logoColor=black)
 ![Data](https://img.shields.io/badge/data-synthetic-lightgrey)
 
-Messy booking, payment, refund and funnel files for an imaginary online travel marketplace (flights, hotels and buses) go in. A clean star schema in PostgreSQL, eight business metrics, a data-quality check suite and four flat files ready for a Power BI dashboard come out.
+Messy booking, payment, refund and funnel files for an imaginary online travel marketplace (flights, hotels and buses) go in. A clean dimensional model in PostgreSQL, eight business metrics, a data-quality check suite and four flat files ready for a Power BI dashboard come out.
 
 **The data is synthetic.** A seeded Python script invented every row. No real company, customer or payment data is used, and everything under "What the data shows" describes this invented dataset only.
 
@@ -27,7 +27,7 @@ Exact definitions are in [docs/metric_definitions.md](docs/metric_definitions.md
 ## What this project shows
 
 - Cleaning raw exports in SQL: duplicates with `ROW_NUMBER()`, inconsistent text with `LOWER`, `TRIM` and `NULLIF`, and impossible values flagged instead of silently dropped.
-- Dimensional modeling: a star schema with four fact tables and six dimensions, each with a stated grain.
+- Dimensional modeling: four fact tables sharing six dimensions (a star-style model, or fact constellation), each fact with a stated grain.
 - Analysis queries with CTEs, window functions (`LAG`, `FIRST_VALUE`, ranking) and `FILTER`.
 - Data-quality checks that reconcile payments to bookings and surface a gap that needs to go to finance.
 - A join that double-counts revenue, shown next to the safe version (see "What the data shows").
@@ -60,7 +60,7 @@ Python is only needed to regenerate the raw files (`python generator/generate_da
 
 ## The data model
 
-A star schema: fact tables hold events, dimension tables describe them. Each fact table has a stated grain, meaning what one row stands for.
+Fact tables hold events, dimension tables describe them. Four fact tables share the same dimensions, so strictly this is a fact constellation (several stars) rather than a single star. Payments and refunds also link to bookings by booking_id. Each fact table has a stated grain, meaning what one row stands for.
 
 | Table | Grain (one row is...) |
 | --- | --- |
@@ -102,7 +102,7 @@ The generator plants these patterns on purpose so that there is something to fin
 | --- | --- |
 | Bookings peak in March, June and July | GBV of about 13.5M, 12.3M and 11.8M BDT against 7.6M to 9.6M in other months |
 | The EID15 promo goes with more cancellations | 17.5% cancelled (337 bookings) against 8.3% for bookings with no promo |
-| Customers acquired through Facebook ads rarely book again | 14.3% repeat rate against 26.2% to 31.8% for other channels |
+| Customers acquired through Facebook ads book again about half as often | 14.3% repeat rate against 26.2% to 31.8% for other channels |
 | Internet banking is the weak payment method | 11.8% of attempts fail (3.7% to 6.9% for others) and refunds take 11.7 days on average (1.8 to 1.9 days for bKash and Nagad) |
 | Promos eat the commission | Bookings with a promo earn 227 BDT net on average against 682 without. Domestic flights lose money overall, with net revenue of about -134,000 BDT |
 | A careless join inflates revenue | Joining bookings to every payment attempt overstates GBV by 6.9% (93.9M against 87.8M BDT) |
