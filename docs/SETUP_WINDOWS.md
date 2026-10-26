@@ -20,7 +20,7 @@
 
 ## Re-running `run_all.bat`
 
-Close the DBeaver connection to `ota` first. PostgreSQL will not drop a database that is open somewhere else.
+The script drops and recreates the database `ota`, so do not use that name for data you want to keep. Close the DBeaver connection to `ota` first. PostgreSQL will not drop a database that is open somewhere else.
 
 ## If `run_all.bat` does not work
 

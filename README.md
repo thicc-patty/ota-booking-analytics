@@ -52,7 +52,7 @@ docs/                        setup guide, schema, metric definitions, dashboard 
 Full steps for Windows are in [docs/SETUP_WINDOWS.md](docs/SETUP_WINDOWS.md). In short:
 
 1. Install PostgreSQL and DBeaver Community (both free).
-2. Run `run_all.bat` (or `./run_all.sh`). It creates a database called `ota`, loads the raw files, cleans them and runs the data-quality checks.
+2. Run `run_all.bat` (or `./run_all.sh`). It creates a database called `ota`, loads the raw files, cleans them and runs the data-quality checks. It drops any existing database with that name first.
 3. Open `sql/05_metrics.sql` and `sql/06_analysis_questions.sql` in DBeaver and run the queries one at a time.
 4. Open Power BI Desktop, load the four files in `data/powerbi/`, and build the pages described in [docs/dashboard_spec.md](docs/dashboard_spec.md).
 

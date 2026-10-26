@@ -1,6 +1,6 @@
 -- 03_clean.sql
 -- Turns the messy raw_* tables into the clean dim_* and fact_* tables.
--- Every cleaning rule is written as a comment so you can explain it.
+-- Every cleaning rule is documented in a comment next to the code that applies it.
 --     psql -d ota -v ON_ERROR_STOP=1 -f sql/03_clean.sql
 
 -- Dimensions: copied across. The raw lookup files were already clean.

@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Linux/macOS version of run_all.bat. Rebuilds the database "ota" and runs steps 1 to 4 and 7.
+# Drops and recreates a database named "ota": do not run it where that name holds data you want to keep.
 # Usage: PGUSER=postgres PGHOST=localhost ./run_all.sh
 set -euo pipefail
 cd "$(dirname "$0")"

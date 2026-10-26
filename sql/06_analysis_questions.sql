@@ -1,6 +1,6 @@
 -- 06_analysis_questions.sql
 -- Eight questions a BI analyst gets asked, each answered with a query.
--- The comment above each query says what to look for. Try to predict the result before you run it.
+-- The comment above each query says what to look for.
 
 -- ---------------------------------------------------------------------------
 -- Q1. Why does joining bookings to payments inflate revenue?
@@ -17,7 +17,7 @@ SELECT
      FROM fact_bookings b
      JOIN fact_payments p ON p.booking_id = b.booking_id AND p.payment_status = 'success'
      WHERE b.status <> 'cancelled')                                          AS gbv_after_safe_join;
--- Fix: filter the many-side to one row per booking before you join, or aggregate it first.
+-- Fix: filter the many-side to one row per booking before joining, or aggregate it first.
 
 -- ---------------------------------------------------------------------------
 -- Q2. Which payment method fails most often?
